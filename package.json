@@ -1,0 +1,18 @@
+{
+  "name": "testingboilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate code for testing best practices",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover node_modules/mocha/bin/_mocha",
+    "watch": "mocha --watch"
+  },
+  "author": "Aneel Marshall",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.2.1",
+    "sinon": "^7.5.0"
+  }
+}
